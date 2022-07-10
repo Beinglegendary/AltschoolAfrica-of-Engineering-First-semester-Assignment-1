@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Calculator page
+  </title>
+  <link rel="stylesheet" href="tesst.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <a href="index.html"><button class="home">Back</button></a>
+  <!-- THIS IS A SECTION OF CALCULATOR BUILT WITH TABLE ELEMENTS & CSS -->
+  <section>
+
+    <form name="Calculator" class="calculator">
+      <table border="20" align="center" cellpadding="9" cellspacing="10" bgcolor="#c0c0c0">
+        <tr>
+          <td>
+            <input type="text" name="Input" Size="45" id="display">
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" name="one" style="font-size:30px" value=" 1 ">
+            <input type="button" name="two" style="font-size:30px" value=" 2 ">
+            <input type="button" name="three" style="font-size:30px" value=" 3 ">
+            <input type="button" name="add" class="btnTop" style="font-size:30px" value=" + ">
+            <br>
+
+            <input type="button" name="four" style="font-size:30px" value=" 4 ">
+            <input type="button" name="five" style="font-size:30px" value=" 5 ">
+            <input type="button" name="six" style="font-size:30px" value=" 6 ">
+            <input type="button" name="minus" style="font-size:30px" value=" - ">
+            <br>
+            <input type="button" name="seven" style="font-size:30px" value=" 7 ">
+            <input type="button" name="eight" style="font-size:30px" value=" 8 ">
+            <input type="button" name="nine" style="font-size:30px" value=" 9 ">
+            <input type="button" name="mul" style="font-size:30px" value=" * ">
+            <br>
+            <input type="button" name="clear" style="font-size:30px" value=" c ">
+            <input type="button" name="zero" style="font-size:30px" value=" 0 ">
+            <input type="button" name="modulo" style="font-size:30px" value=" % ">
+            <input type="button" name="div" style="font-size:30px" value=" / ">
+
+            <br>
+            <input type="button" name="MRC" value="M-">
+            <input type="button" name="MRC" value="M+">
+            <input type="button" name="dot" value=".">
+            <input type="button" name="equal" value="=">
+
+            <br>
+          </td>
+
+        </tr>
+      </table>
+    </form>
+  </section>
+
+
+  <div id="app" class="calcul">
+    <div class="calc-body">
+      <div class="calc-body-screen">
+        <div class="q"><span id="inputtile">{{caltext}}</span></div>
+        <div class="a"><span id="answertile">{{ans}}</span></div>
+      </div>
+      <div class="calc-body-btn"><span>MC</span></div>
+      <div class="calc-body-btn"><span>MR</span></div>
+      <div class="calc-body-btn"><span>MS</span></div>
+      <div class="calc-body-btn"><span>M+</span></div>
+      <div class="calc-body-btn"><span>M-</span></div>
+      <div id="btn_back" class="calc-body-btn"><span>←</span></div>
+      <div id="btn_clear_all" class="calc-body-btn"><span>CE</span></div>
+      <div id="btn_clear" class="calc-body-btn"><span>C</span></div>
+      <div id="btn_rvnag" class="calc-body-btn"><span>±</span></div>
+      <div id="btn_sqrt" class="calc-body-btn"><span>√</span></div>
+      <div class="calc-body-btn btnnum"><span>7</span></div>
+      <div class="calc-body-btn btnnum"><span>8</span></div>
+      <div class="calc-body-btn btnnum"><span>9</span></div>
+      <div class="calc-body-btn btnnum"><span>/</span></div>
+      <div class="calc-body-btn btnnum"><span>%</span></div>
+      <div class="calc-body-btn btnnum"><span>4</span></div>
+      <div class="calc-body-btn btnnum"><span>5</span></div>
+      <div class="calc-body-btn btnnum"><span>6</span></div>
+      <div class="calc-body-btn btnnum"><span>＊</span></div>
+      <div id="btn_reverse" class="calc-body-btn"><span>1/x</span></div>
+      <div class="left">
+        <div class="calc-body-btn btnnum"><span>1</span></div>
+        <div class="calc-body-btn btnnum"><span>2</span></div>
+        <div class="calc-body-btn btnnum"><span>3</span></div>
+        <div class="calc-body-btn btnnum"><span>-</span></div>
+        <div class="calc-body-btn zero btnnum"><span>0</span></div>
+        <div class="calc-body-btn btnnum"><span>.</span></div>
+        <div class="calc-body-btn btnnum"><span>+</span></div>
+      </div>
+      <div id="btn_cal_all" class="calc-body-btn qu"><span>=</span></div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
